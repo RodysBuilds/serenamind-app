@@ -55,3 +55,6 @@ Bevat lokale prototypes voor module-onboarding, vier talen, crisisland, meerdere
 
 ## SerenaMind Samen V8
 Lokale rollen voor cliënt en begeleider, cliëntbeheer, begeleidingsnotities, gedeelde afspraken, expliciete selectie door de cliënt, versleutelde deelbestanden, import en privacylogboek. Dit is veilige lokale samenwerking zonder centrale server. Gebruik deelbestanden alleen via een passend beveiligd kanaal en deel het wachtwoord afzonderlijk. Voor realtime dossiers en centrale toegang is een NEN 7510-conforme productieomgeving noodzakelijk.
+
+## Security V9
+Automatische vergrendeling na 5, 10, 15, 30 of 60 minuten; optionele achtergrondvergrendeling; handmatig vergrendelen; rate limiting voor login en ontgrendelen; sessie- of blijvende login; extra 6-cijferige pincode voor Samenwerken; blokkade na mislukte pogingen. Dit beschermt lokale toegang, maar maakt GitHub Pages nog geen gecertificeerd zorgsysteem.
