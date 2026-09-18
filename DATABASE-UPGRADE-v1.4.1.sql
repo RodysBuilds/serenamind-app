@@ -2,6 +2,7 @@
 -- Voer dit eenmaal uit in Supabase SQL Editor.
 
 alter table public.profiles add column if not exists avatar_url text;
+alter table public.profiles add column if not exists recovery_hash text;
 
 create or replace function public.handle_new_serenamind_user()
 returns trigger

@@ -1,7 +1,7 @@
 {
   "name": "SerenaMind - Rust, Balans en Groei",
   "short_name": "SerenaMind",
-  "start_url": "./?version=1.4.5&source=homescreen",
+  "start_url": "./?version=1.6.0&source=homescreen",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f5f3ff",
@@ -20,5 +20,5 @@
       "type": "image/png"
     }
   ],
-  "id": "/serenamind-app/v1.4.5"
+  "id": "/serenamind-app/v1.6.0"
 }
