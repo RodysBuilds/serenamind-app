@@ -1,8 +1,8 @@
-# SerenaMind V9 publiceren
+# V10 publiceren
 1. Pak de ZIP uit.
-2. Upload alle losse bestanden naar de root van RodysBuilds/serenamind-app.
+2. Upload alle losse bestanden naar de root van dezelfde GitHub-repository.
 3. Vervang bestaande bestanden.
-4. Commit: SerenaMind Security V9.
+4. Commit: SerenaMind Herstel V10.
 5. Wacht tot Actions groen is.
-6. Open de bestaande link met ?v=9.
-7. Controleer dat v9 bovenaan staat. De gewone gedeelde link blijft ongewijzigd.
+6. Open de bestaande link met ?v=10.
+7. Controleer dat v10 bovenaan staat.

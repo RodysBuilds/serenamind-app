@@ -58,3 +58,6 @@ Lokale rollen voor cliënt en begeleider, cliëntbeheer, begeleidingsnotities, g
 
 ## Security V9
 Automatische vergrendeling na 5, 10, 15, 30 of 60 minuten; optionele achtergrondvergrendeling; handmatig vergrendelen; rate limiting voor login en ontgrendelen; sessie- of blijvende login; extra 6-cijferige pincode voor Samenwerken; blokkade na mislukte pogingen. Dit beschermt lokale toegang, maar maakt GitHub Pages nog geen gecertificeerd zorgsysteem.
+
+## V10 Herstel en presentatie
+Ochtend/middag/avond-check, ADHD-taakverkleiner, Nu-Straks-Later, 2-minuten taakstart, PTSS-sensitieve oriëntatiekaart, prikkelprofiel, minimale rustweergave, belastbaarheids- en UWV-gespreksvoorbereiding, toestemmingsdashboard en fictieve presentatiemodus. Geen diagnostiek of zelfstandige traumabehandeling.
