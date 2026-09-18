@@ -52,3 +52,6 @@ Signaleringsplan, slaaplanding, kleine overwinningen, behoeftewijzer, lichaamsch
 
 ## Professional V6
 Bevat lokale prototypes voor module-onboarding, vier talen, crisisland, meerdere contacten, herinneringen, rustroutine, welzijnsexport, geluidslandschappen, spraakopname, WebAuthn-controle, 2FA/cloudvoorbereiding, smartwatch-modus, rustwidget, back-up en accountverwijdering. Werkelijke cloudsynchronisatie, e-mailherstel, E2EE over apparaten en gegarandeerde push vereisen een productiebackend en native apps.
+
+## SerenaMind Samen V8
+Lokale rollen voor cliënt en begeleider, cliëntbeheer, begeleidingsnotities, gedeelde afspraken, expliciete selectie door de cliënt, versleutelde deelbestanden, import en privacylogboek. Dit is veilige lokale samenwerking zonder centrale server. Gebruik deelbestanden alleen via een passend beveiligd kanaal en deel het wachtwoord afzonderlijk. Voor realtime dossiers en centrale toegang is een NEN 7510-conforme productieomgeving noodzakelijk.
