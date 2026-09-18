@@ -64,3 +64,6 @@ Ochtend/middag/avond-check, ADHD-taakverkleiner, Nu-Straks-Later, 2-minuten taak
 
 ## V15 eenvoudige lokale authenticatie
 Geen e-mail, Supabase, cloudcontrole of herstelcode. Account maken gebruikt alleen naam, gebruikersnaam, wachtwoord en rol. Accounts zijn apparaat- en browsergebonden.
+
+## V16 schone lokale login
+De oude conflicterende account-handlers zijn uit app.js verwijderd. Alleen local-auth.js beheert registratie, login en uitloggen.
