@@ -1,8 +1,10 @@
-# V10 publiceren
+# SerenaMind V11 mobiele registratie-fix
 1. Pak de ZIP uit.
-2. Upload alle losse bestanden naar de root van dezelfde GitHub-repository.
-3. Vervang bestaande bestanden.
-4. Commit: SerenaMind Herstel V10.
-5. Wacht tot Actions groen is.
-6. Open de bestaande link met ?v=10.
-7. Controleer dat v10 bovenaan staat.
+2. Open RodysBuilds/serenamind-app op GitHub.
+3. Kies Code > Add file > Upload files.
+4. Upload ALLE losse bestanden uit deze map naar de root en vervang bestaande bestanden.
+5. Commit met: SerenaMind V11 mobiele registratie fix.
+6. Wacht bij Actions tot pages build and deployment groen is.
+7. Open de bestaande link eerst in Safari/Chrome met ?v=11.
+8. Controleer dat bovenaan v11 staat.
+9. Verwijder eventueel alleen het oude beginscherm-icoon en voeg SerenaMind opnieuw toe. Verwijder geen websitegegevens als je lokale data wilt behouden.
