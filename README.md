@@ -67,3 +67,6 @@ Geen e-mail, Supabase, cloudcontrole of herstelcode. Account maken gebruikt alle
 
 ## V16 schone lokale login
 De oude conflicterende account-handlers zijn uit app.js verwijderd. Alleen local-auth.js beheert registratie, login en uitloggen.
+
+## V18 fotobibliotheek
+Het camera-afdwingende capture-attribuut is verwijderd. De bestandskiezer accepteert afbeeldingen uit de fotobibliotheek, bestanden en, afhankelijk van het toestel, de camera.

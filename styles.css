@@ -14,3 +14,6 @@
 
 /* V17 profile photo */
 .avatarPick img{display:block!important;width:104px!important;height:104px!important;object-fit:cover!important;border-radius:30px!important;border:3px solid #fff!important;box-shadow:0 10px 24px #4a3d7926!important}.avatarPick{cursor:pointer!important}.avatarPick span{color:var(--brand)!important;font-weight:800!important}#headerAvatar,#settingsAvatar{object-fit:cover!important}
+
+/* V18 photo library picker */
+.avatarPick::after{content:"Foto's, bestanden of camera";display:block;font-size:.72rem;color:var(--muted);font-weight:500;margin-top:2px}.avatarPick input[type=file]{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}.avatarPick{position:relative}

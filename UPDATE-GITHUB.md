@@ -1,10 +1,10 @@
-# SerenaMind V17 profielfoto-fix
-1. Pak de ZIP uit.
+# SerenaMind V18 fotobibliotheek-fix
+
+1. Pak deze ZIP uit.
 2. Upload alle losse bestanden naar de root van RodysBuilds/serenamind-app.
 3. Vervang bestaande bestanden.
-4. Commit: SerenaMind V17 profielfoto fix.
-5. Wacht tot Actions groen is.
-6. Open de bestaande link met ?v=17.
-7. Controleer bovenaan v17-photo.
-8. Kies tijdens registratie een foto en controleer de voorbeeldweergave.
-9. Na registratie staat de foto bovenaan en in Instellingen. Via Wijzig foto kan een nieuwe foto worden gekozen.
+4. Commit: SerenaMind V18 fotobibliotheek fix.
+5. Wacht tot GitHub Actions groen is.
+6. Open https://rodysbuilds.github.io/serenamind-app/?v=18
+7. Controleer bovenaan v18-gallery.
+8. Tik op Kies foto uit bibliotheek. Het toestel kan nu Foto's, fotobibliotheek, bestanden en waar ondersteund ook camera aanbieden.
