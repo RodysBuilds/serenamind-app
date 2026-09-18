@@ -1,13 +1,13 @@
 {
-  "name": "SerenaMind - Rust, Balans en Groei",
+  "name": "SerenaMind dagelijkse steun",
   "short_name": "SerenaMind",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f3ff",
-  "theme_color": "#312e81",
+  "background_color": "#f3faf8",
+  "theme_color": "#0f766e",
   "lang": "nl",
-  "description": "Jouw veilige plek voor dagelijkse rust, balans, groei en een privé dagboek",
+  "description": "Rust, balans, dagelijkse steun en beveiligd privédagboek",
   "icons": [
     {
       "src": "icon-192.png",

@@ -1,10 +1,10 @@
-# SerenaMind V11 mobiele registratie-fix
-1. Pak de ZIP uit.
-2. Open RodysBuilds/serenamind-app op GitHub.
-3. Kies Code > Add file > Upload files.
-4. Upload ALLE losse bestanden uit deze map naar de root en vervang bestaande bestanden.
-5. Commit met: SerenaMind V11 mobiele registratie fix.
-6. Wacht bij Actions tot pages build and deployment groen is.
-7. Open de bestaande link eerst in Safari/Chrome met ?v=11.
-8. Controleer dat bovenaan v11 staat.
-9. Verwijder eventueel alleen het oude beginscherm-icoon en voeg SerenaMind opnieuw toe. Verwijder geen websitegegevens als je lokale data wilt behouden.
+# SerenaMind V12 iOS/PWA inlogscherm-fix
+1. Pak deze ZIP uit.
+2. Upload alle losse bestanden naar de root van RodysBuilds/serenamind-app.
+3. Vervang alle bestaande bestanden.
+4. Commit: SerenaMind V12 auth overlay fix.
+5. Wacht tot Actions groen is.
+6. Open eerst in Safari: https://rodysbuilds.github.io/serenamind-app/?v=12
+7. Controleer dat v12 zichtbaar is.
+8. Test registratie en inloggen in Safari.
+9. Verwijder alleen het oude beginscherm-icoon en voeg de site opnieuw toe. Wis geen websitegegevens tenzij lokale testaccounts weg mogen.
