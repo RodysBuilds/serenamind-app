@@ -1,16 +1,14 @@
-const C='serenamind-v12';
-const A=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./serenamind-logo.webp'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('message',e=>{if(e.data&&e.data.type==='SKIP_WAITING')self.skipWaiting()});
-self.addEventListener('fetch',e=>{
- if(e.request.method!=='GET')return;
- const u=new URL(e.request.url);
- if(e.request.mode==='navigate'){
-  e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(C).then(c=>c.put('./index.html',copy));return r}).catch(()=>caches.match('./index.html')));return;
- }
- if(u.origin===location.origin){
-  e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(C).then(c=>c.put(e.request,copy));return r}).catch(()=>caches.match(e.request)));return;
- }
- e.respondWith(fetch(e.request));
+const CACHE='serenamind-v1.4.2';
+const ASSETS=['./styles.css','./app.js','./cloud.js','./config.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./serenamind-logo.webp'];
+self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)))});
+self.addEventListener('activate',event=>{event.waitUntil((async()=>{for(const key of await caches.keys())if(key!==CACHE)await caches.delete(key);await self.clients.claim()})())});
+self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting()});
+self.addEventListener('fetch',event=>{
+  const req=event.request;
+  if(req.mode==='navigate'){
+    event.respondWith((async()=>{try{const fresh=await fetch(req,{cache:'no-store'});const cache=await caches.open(CACHE);cache.put('./index.html',fresh.clone());return fresh}catch(e){return (await caches.match('./index.html'))||Response.error()}})());return;
+  }
+  if(new URL(req.url).origin===location.origin){
+    event.respondWith((async()=>{try{const fresh=await fetch(req,{cache:'no-cache'});const cache=await caches.open(CACHE);cache.put(req,fresh.clone());return fresh}catch(e){return (await caches.match(req))||Response.error()}})())
+  }
 });
